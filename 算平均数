@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+  double a,b,result;
+  int m,n;
+  cin>>n;
+  for (m=0;m<n;m++)
+  {
+    b=a;
+    cin>>a;
+    a=a+b;
+  }
+  result=a/n;
+  return 0;
+}
